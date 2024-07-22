@@ -4,3 +4,6 @@ Feature: Test The OrangeHRM Application
     Given User is on login page
     When User enter username and password
     Then User click on login button
+    
+    Scenario: Validate Admin page
+    When User is on admin page and click 
